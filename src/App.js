@@ -8,10 +8,10 @@ import Counter from './Counter/Counter'
 function App() {
   return (
     <div className="App">
-      {/* <Hello name="Garima"/>
-      <HelloStateless name="Anisha"/>
-      <StateFullBtn /> */}
-      <Counter />
+      <Hello name="Garima"/>
+      <HelloStateless name="Anisha" info="Also, I am trying to use small example of destructuring. It is an ES6 feature." />
+      <StateFullBtn />
+      {/* <Counter /> */}
     </div>
   );
 }

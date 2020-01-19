@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 
 class StateFullBtn extends Component {
+    
     constructor(props) {
         super(props)
 
@@ -18,10 +19,11 @@ class StateFullBtn extends Component {
 }
 
     render(){
+        const {name} = this.state
         return(
             <div>
             <h3>Hi, I am working on maintaining States. You can see how my states changes </h3>
-            <h4>Welcome, {this.state.name}</h4>
+            <h4>Welcome, {name}</h4>
             <button onClick={() => this.handleClick()}>Login</button>
 
                 </div>
